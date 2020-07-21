@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "nskobelevs.nofireoverlay.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "InGameOverlayRendererMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

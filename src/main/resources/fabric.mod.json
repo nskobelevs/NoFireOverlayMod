@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nofireoverlay",
+  "version": "${version}",
+  "name": "No Fire Overlay Mod",
+  "description": "A client-side mod that disabled the fire overlay in situations where it shouldn't be rendered.",
+  "authors": [
+    "Nikita Skobelevs"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/nskobelevs/NoFireOverlayMod"
+  },
+  "license": "MIT",
+  "icon": "assets/nofireoverlay/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nofireoverlay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0"
+  }
+}
