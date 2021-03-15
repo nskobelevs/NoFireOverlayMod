@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "nskobelevs.nofireoverlay.mixin",
+  "package": "ie.skobelevs.nofireoverlay.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
   "client": [
