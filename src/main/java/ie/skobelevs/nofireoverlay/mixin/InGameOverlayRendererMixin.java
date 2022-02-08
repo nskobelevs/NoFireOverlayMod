@@ -15,7 +15,7 @@ public class InGameOverlayRendererMixin {
 
     @Redirect(at = @At(value = "INVOKE", target = "Lnet/minecraft/client/network/ClientPlayerEntity;isOnFire()Z"), method = "net/minecraft/client/gui/hud/InGameOverlayRenderer.renderOverlays(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/util/math/MatrixStack;)V")
     private static boolean renderOverlaysMixin(ClientPlayerEntity playerEntity, MinecraftClient minecraftClient,
-            MatrixStack matrixStack) {
+                                               MatrixStack matrixStack) {
         boolean isCreative = playerEntity.isCreative();
         boolean hasFireResistance = playerEntity.hasStatusEffect(StatusEffects.FIRE_RESISTANCE);
         boolean isOnFire = playerEntity.isOnFire();
